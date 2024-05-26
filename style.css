@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@200&display=swap');
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    width: 100%;
+}
+body,
+html {
+    font-family: 'Inter',sans-serif;
+}
+
+textarea:focus,
+input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+:root{
+    .color1 {color: #1f2718;}
+    .color2 {color: #484745;}
+    .color3 {color: #9e5588;}
+    .color4 {color: #e0c2ca;}
+    .color5 {color: #eff3e1;}
+}*/
+
+/* Estilos gerais 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.logo {
+    position: absolute;
+    width: 30%;
+    padding: 05px;
+}
+
+.imagem__logo {
+    height: 105px;
+    width: 60px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner 
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Competências 
+.competencias {
+    padding: 20px 0;
+}
+
+.competencias h2 {
+    margin-bottom: 10px;
+}
+
+.competencias p {
+    margin-bottom: 10px;
+}
+
+
+/* Estilos do Menu Interativo 
+.menu-interativo {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu-interativo ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-interativo ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu-interativo ul li:first-child {
+    margin-left: 0;
+}
+
+.menu-interativo ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu-interativo ul li a:hover {
+    background-color: #555;
+}
+
+
+/* Estilos da Página de Login 
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* estilização pagina "feminino"
+
+/* Estilos para o grid de imagens 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    position: static;
+    width: 176px;
+    height: 252px;
+    left: 0px;
+    top: 0px;
+    margin: 16px 10px;
+}
+
+.item:nth-child(1) {
+    margin-left: 0;
+    border-left: 0;
+}
+
+.item img {
+    width: 100%;
+    height: 60%;
+}
+
+.item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Rodapé 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.contato, .redes-sociais {
+    width: 50%;
+    float: left;
+}
+
+.redes-sociais {
+    text-align: right;
+}
+
+.redes-sociais ul {
+    list-style: none;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.redes-sociais ul li a {
+    color: #fff;
+    text-decoration: none;
+}*/
+
+
+
+
+/* estilizações novas */
+
+header {
+    background-color: black;
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    float: left;
+    left: 41px;
+    width: 10%;
+}
+
+.redes-sociais {
+    width: 20%;
+    float: right;
+    padding: 15px;
+}
+
+
+.Botao3 {
+
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.Botao3:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    margin-left: 10px;
+
+
+}
+
+.imagem__logo {
+    width: 90px;
+    height: 60px;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+
+}
+
+/*.redes-sociais {
+    width: 20%;
+    float: left;
+    padding: 15px;
+}
+
+.imagem__icons {
+    width: 30px;
+    height: 30px;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+}*/
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+
+
+}
+
+
+.header2 {
+    width: 980px;
+    margin: 0 auto;
+    
+
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    font-weight: bold;
+    margin-left: 20px;
+    height: 10px;
+}
+
+
+
+.menu ul li a:hover {
+    color: #f9c1d3;
+    border-bottom: 3px solid #f9c1d3;
+}
+
+.menu ul li a {
+    color: #c4c4c4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    width: 60%;
+    float: left;
+    padding: 10px;
+
+}
+
+.menu-urls {
+    border-bottom: 3px solid rgb(165, 141, 231);
+    height: 70px;
+    background-color: transparent;
+}
+
+.busca {
+    width: 41%;
+    float: right;
+    padding: 10px;
+
+}
+
+.busca input {
+    background-image: url('../img/Vector.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    height: 10px;
+    margin: 0 auto;
+    padding: 8px;
+    width: 296px;
+    border: 1px solid #8b8b8b;
+    border-radius: 10px;
+}
+
+.login__paginaPrincipal {
+    width: 41%;
+    padding: 10px;
+
+}
+
+.col-100 {
+    width: 100%;    
+}
+
+.banner {
+    background-image: url('./img/BANNER-FRETE.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    top: 115px;
+    display: flex;
+}
+
+.banner__apresentacao {
+
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 4.5% 1.0%;
+    position: static;
+    width: 100%;
+    height: 100%;
+    left: 152px;
+    padding: 40px;
+
+}
+
+.banner__titulo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 16px;
+    color: #fcf7f7;
+}
+
+.banner__descricao {
+    font-size: 1.5em;
+    line-height: 198px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.banner__btn {
+    background-color: #f9c1d3;
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    border-radius: 20px;
+    width: 21%;
+    height: 7%;
+    left: 10%;
+    top: 60%;
+}
+
+.banner__btn:hover {
+    cursor: pointer;
+    background: #f76492;
+    font-size: 1.2rem;
+    transition: 0.7s;
+}
+
+.Botao1 {
+
+    border: none;
+    position: absolute;
+    border-radius: 10%;
+    width: 61px;
+    height: 37px;
+    right: 5%;
+    top: 27px;
+    background-color: #f9c1d3;
+    color: black;
+
+}
+
+.Botão2 {
+    box-sizing: border-box;
+    position: static;
+    border-radius: 12%;
+    width: 18%;
+    height: 51px;
+    left: 954px;
+    top: 32px;
+
+}
+
+.Botao3 {
+
+    border: none;
+    position: absolute;
+    border-radius: 12%;
+    width: 150px;
+    height: 51px;
+    left: 2px;
+    top: 32px;
+
+}
+
+.Botao1:hover {
+    cursor: pointer;
+    background: #ff93b5;
+    font-size: 1.2rem;
+}
+
+
+/*produtos*/
+.galeria {
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.galeria__secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    margin-left: 0;
+}
+
+.galeria__produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    position: static;
+    width: 176px;
+    height: 252px;
+    left: 0px;
+    top: 0px;
+    margin: 16px 10px;
+}
+
+.galeria__produtos:nth-child(1) {
+    margin-left: 0;
+    border-left: 0;
+}
+
+.galeria__titulo {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 2.2em;
+    color: #464646;
+}
+
+.galeria__verTudo {
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    width: 97px;
+
+    height: 24px;
+    left: 1036px;
+    top: 7px;
+    text-decoration: none;
+
+}
+
+.galeria__verTudo:after {
+    content: url('../img/seta.png');
+
+}
+
+.galeria__imagem {
+    width: 176px;
+    height: 174px;
+
+}
+
+.galeria__descricaoProduto {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin-bottom: 0;
+}
+
+.galeria__preco {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 1% 0%;
+}
+
+.galeria__verProduto {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+/* login*/ 
+
+.background_login {
+    background: url('../img/background_login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.login {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.login__titulo {
+    width: 131px;
+    height: 29px;
+    left: 639px;
+    top: 206px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #464646;
+}
+
+.login__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+
+}
+
+.login__input {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.login__btn {
+
+    width: 100%;
+    height: 50px;
+}
+
+.voltar {
+    border: none;
+    position: absolute;
+    background: transparent;
+    width: 150px;
+    height: 51px;
+    right: 2px;
+    top: 32px;
+}
+
+.voltar:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+
+}
+
+
+/* rodape*/
+.rodape {
+    background: black;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rodape__aluraGeek {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin: 5%;
+
+}
+
+.rodape__logo {
+    width: 229px;
+    height: 244px;
+    position: static;
+}
+
+.rodape__informacoes {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    height: 234px;
+    left: 0px;
+    top: 129px;
+}
+
+.rodape__informacao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #f9c1d3;
+    text-decoration: none;
+    margin: 14px 112px;
+    width: 100%;
+}
+
+.rodape__subtitulo {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.rodape__formulario {
+    width: 100%;
+    height: 46px;
+    left: calc(50% - 560px/2);
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.rodape__nome {
+    width: 100%;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #1b0b0b;
+    border-radius: 8px;
+}
+
+.rodape__inputNome {
+    border: transparent;
+    width: 95%;
+}
+
+.rodape__mensagem {
+    border: transparent;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+}
+
+.rodape__mensagem:focus {
+    border-color: #2A7AE4;
+}
+
+.rodape__desenvolvedor {
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__btn {
+    font-size: 19px;
+    width: 100%;
+    height: 46px;
+    left: calc(50% - 560px/2);
+    top: 0px;
+    background: #ff93b5;
+    border-radius: 8px;
+    margin: 10px 0;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.rodape__btn:hover {
+    transition: 0.5s;
+    background-color: ff;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:768px) {
+    .galeria {
+        width: 90%;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .galeria__titulo {
+        border: 0;
+        font-size: 20px;
+    }
+
+    .galeria__produtos {
+        width: 120px;
+        height: auto;
+        margin: 20 0;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .galeria__imagem {
+        width: 110px;
+        height: 100px;
+    }
+
+    .galeria__verProduto {
+        font-size: 14px;
+    }
+}
+
